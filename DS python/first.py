@@ -1,0 +1,20 @@
+print("Hello world")
+b="KLH BOWRAMPET"
+print(b)
+#slicing
+print(b[2:5])
+print(b[-10:-4])
+#String methods
+print(b.capitalize())
+print(b.casefold())
+print(b.center(60,*))
+print(b.count("B"))
+print(b.lower())
+print(b.find("B"))
+print(b.islower())
+print(b.isupper())
+print(b.replace("B","b"))
+print(b.join("KLH"))
+print(b.split(" "))
+print(b.swapcase())
+print(b.zfill(20))
